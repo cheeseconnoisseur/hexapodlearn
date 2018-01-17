@@ -19,7 +19,7 @@ c = ","
 biglist = []
 
 def main():
-    #remove start if random set of input variables havealready been created.
+    #remove start if random set of input variables have already been created.
     start()
     print("lol")
     bigman()
