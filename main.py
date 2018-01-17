@@ -38,13 +38,16 @@ def main():
 ##                f.write(lol)
 ##                f.write('\n')
 ##                f.close()
+def rnd(uganda):
+    print(uganda)
 
+    
 def start():
     starter = 0
     for i in range(lives):
         #lol = np.zeros(5)
         lol = [0,0,0,0,0]
-        bigint = random.randint(1,dimensions-1)
+        bigint = random.randint(0,dimensions-1)
         lol[bigint] = 1
         print(lol)
         for i in range(5):
